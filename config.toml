@@ -2,7 +2,7 @@
   [[module.imports]]
     path = "github.com/theNewDynamic/gohugo-theme-ananke"
 
-baseURL = "https://<ton-username>.github.io/cyclospattes/"
+baseURL = "https://aurelieln.github.io/cyclospattes/"
 languageCode = "fr-fr"
 
 # theme = "ananke"   # si tu utilises Hugo Modules, tu peux commenter
