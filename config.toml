@@ -1,14 +1,33 @@
-baseURL = 'http://cyclospattes.netlify.app/'
-languageCode = 'fr-fr'
-title = 'Cyclos & Pattes'
-theme = 'ananke'
+[module]
+  [[module.imports]]
+    path = "github.com/theNewDynamic/gohugo-theme-ananke"
 
-[[menu.main]]
-  name = "À propos"
-  url = "/a-propos/"
-  weight = 1
-[[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 2
+baseURL = "https://<ton-username>.github.io/cyclospattes/"
+languageCode = "fr-fr"
+
+# theme = "ananke"   # si tu utilises Hugo Modules, tu peux commenter
+
+#baseURL = "http://localhost:1313/"
+title = "Cyclos Pattes"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  
+  
+  [permalinks]
+  blog = "/blog/:slug/"
+
+
+#[[menu.main]]
+ # name = "À propos"
+  #url = "/a-propos/"
+  #weight = 1
+#[[menu.main]]
+ # name = "Contact"
+  #url = "/contact/"
+  #weight = 2
+
+
+#baseURL = 'http://cyclospattes.netlify.app/'
 

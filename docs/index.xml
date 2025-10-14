@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accueil on </title>
+    <link>/</link>
+    <description>Recent content in Accueil on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Oct 2025 22:26:05 +0200</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>/test/</link>
+      <pubDate>Tue, 14 Oct 2025 22:26:05 +0200</pubDate>
+      <guid>/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Tue, 14 Oct 2025 21:52:29 +0200</pubDate>
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yourpost</title>
+      <link>/posts/yourpost/</link>
+      <pubDate>Tue, 14 Oct 2025 21:42:36 +0200</pubDate>
+      <guid>/posts/yourpost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my_first_post/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/my_first_post/</guid>
+      <description>&lt;p&gt;Hello world! This is my first Hugo post.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
