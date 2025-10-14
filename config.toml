@@ -1,0 +1,14 @@
+baseURL = 'http://cyclospattes.netlify.app/'
+languageCode = 'fr-fr'
+title = 'Cyclos & Pattes'
+theme = 'ananke'
+
+[[menu.main]]
+  name = "À propos"
+  url = "/a-propos/"
+  weight = 1
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 2
+
